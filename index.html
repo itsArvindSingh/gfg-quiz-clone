@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz about C Input and Output</title>
+    <link rel="icon" href="./assets/gfg-logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="head-1">
+
+            <div class="nav-bar-1">
+                <img class="logo" src="./assets/gfg-logo.svg" alt="gfg-logo">
+                <div class="search-box">
+                    <i class="magnifying-glass fa-brands fa-sistrix"></i>
+                    <input class="search" type="search" placeholder="Search...">
+                </div>
+            </div>
+            
+            <div class="nav-bar-2">
+                <div class="more">
+                    <div class="more-topic">Courses</div>
+                    <div class="arrow-down"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="more">
+                    <div class="more-topic">Tutorials</div>
+                    <div class="arrow-down"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="more">
+                    <div class="more-topic">Practice</div>
+                    <div class="arrow-down"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="more">
+                    <div class="more-topic">Jobs</div>
+                    <div class="arrow-down"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+            </div>
+
+
+
+            <div class="nav-bar-3">
+                <div><i class="head-option fa-regular fa-moon"></i></div>
+                <div><i class="head-option fa-regular fa-bell"></i></div>
+                <div><i class="head-option fa-regular fa-circle-user"></i></div>
+            </div>
+        </div>
+
+        <div class="head-2">
+            <div class="resource-links"><a href="#">DSA</a></div>
+            <div class="resource-links"><a href="#">Practice Problems</a></div>
+            <div class="resource-links"><a href="#">C</a></div>
+            <div class="resource-links"><a href="#">C++</a></div>
+            <div class="resource-links"><a href="#">Java</a></div>
+            <div class="resource-links"><a href="#">Python</a></div>
+            <div class="resource-links"><a href="#">JavaScript</a></div>
+            <div class="resource-links"><a href="#">Data Science</a></div>
+            <div class="resource-links"><a href="#">Machine Learning</a></div>
+            <div class="resource-links"><a href="#">Courses</a></div>
+            <div class="resource-links"><a href="#">Linux</a></div>
+            <div class="resource-links"><a href="#">DevOps</a></div>
+
+        </div>
+    </div>
+    <div class="main">
+
+
+        <div class="topics">
+            <div class="box">
+                    <a class="share" href="#">
+                        Share Your Experiences
+                    </a>
+               
+                <div class="tutorials">
+                    <div class="tutorial">
+                        <a href="#">
+                            <span>DSA Tutorial</span>
+                        </a>
+                    </div>
+                    <div class="tutorial">
+                        <a href="#">
+                            <span>System Design Tutorial</span>
+                        </a>
+                    </div>
+                    <div class="tutorial">
+                        <a href="#">
+                            <span>Aptitude Questions and Answers</span>
+                        </a>
+                    </div>
+                    <div class="tutorial">
+                        <a href="#">
+                            <span>Web Development Technologies</span>
+                        </a>
+                    </div>
+                    <div class="tutorial">
+                        <a href="#">
+                            <span>AI, ML and Data Science Tutorial</span>
+                        </a>
+                    </div>
+                    <div class="tutorial">
+                        <a href="#">
+                            <span>DevOps Tutorial</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="skill">
+                    <div class="skill-up"><a href="#">Summer SkillUp<span>Explore</span></a></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h1>C Input and Output</h1>
+            <div class="date-discuss">
+                <div class="date">Last Updated : Jan 19, 2024</div>
+                <div class="discuss">Discuss
+                    <div class="discuss-logo"><i class="fa-regular fa-comment"></i></div>
+                </div>
+            </div>
+
+            <div class="questions">
+
+
+<!-- Question 1 -->
+                <div class="question">
+                    <div class="question-no"><p>Question 1</p></div>
+                    <div class="question-text">
+                        <p>What is the output of the below code </p>
+                        <div class="code-box">
+                            <pre><code>
+#include &lt;stdio.h&gt;
+int main()
+{
+    int i = 0;
+
+    while(i &lt; n)
+    {
+        if(i % 2) break;
+        i++;
+    }
+
+    cout &lt;&lt; i;
+
+    return 0;
+}
+</code></pre>
+                        </div>
+                        <div class="question-options">
+                            <div class="option">
+                                <div class="option-circle"><i class="fa-solid fa-a"></i></div>
+                                <div class="option-text">1</div>
+                            </div>
+                            <div class="option">
+                                <div class="option-circle"><i class="fa-solid fa-b"></i></div>
+                                <div class="option-text">0</div>
+                            </div>
+                            <div class="option">
+                                <div class="option-circle"><i class="fa-solid fa-c"></i></div>
+                                <div class="option-text">n</div>
+                            </div>
+                            <div class="option">
+                                <div class="option-circle"><i class="fa-solid fa-d"></i></div>
+                                <div class="option-text">n-1</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+<!-- Question 2 -->
+<div class="question">
+    <div class="question-no"><p>Question 2</p></div>
+    <div class="question-text">
+        <p>Consider the following C program.</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int i, j, count;
+    count = 0;
+    i = 0;
+    
+    for (j = -3; j &lt;= 3; j++)
+    {
+        if ((j &gt;= 0) && (i++))
+        {
+            count = count + j;
+        }
+    }
+    
+    count = count + i;
+    printf("%d", count);
+    
+    return 0;
+}
+</code></pre>
+        </div>
+        <p>Which one of the following options is correct?</p>
+        <div class="question-options">
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-a"></i></div>
+                <div class="option-text">The program will not compile successfully</div>
+            </div>
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-b"></i></div>
+                <div class="option-text">The program will compile successfully and output 10 when executed</div>
+            </div>
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-c"></i></div>
+                <div class="option-text">The program will compile successfully and output 8 when executed</div>
+            </div>
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-d"></i></div>
+                <div class="option-text">The program will compile successfully and output 13 when executed</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 3 -->
+<div class="question">
+    <div class="question-no"><p>Question 3</p></div>
+    <div class="question-text">
+        <p>Consider the following ANSI C function:</p>
+        <div class="code-box">
+            <pre><code>
+int SimpleFunction(int Y[], int n, int x)
+{
+    int total = Y[0], loopIndex;
+    for (loopIndex = 1; loopIndex &lt;= n-1; loopIndex++)
+        total = x * total + Y[loopIndex];
+    return total;
+}
+</code></pre>
+        </div>
+        <p>Let Z be an array of 10 elements with Z[i] = 1, for all i such that 0 &lt;= i &lt;= 9. The value returned by SimpleFunction(Z, 10, 2) is __________ .</p>
+        <div class="question-options">
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-a"></i></div>
+                <div class="option-text">1023</div>
+            </div>
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-b"></i></div>
+                <div class="option-text">1024</div>
+            </div>
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-c"></i></div>
+                <div class="option-text">2047</div>
+            </div>
+            <div class="option">
+                <div class="option-circle"><i class="fa-solid fa-d"></i></div>
+                <div class="option-text">511</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Question 4 -->
+<div class="question">
+    <div class="question-no"><p>Question 4</p></div>
+    <div class="question-text">
+        <p>Consider the following ANSI C program.</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int main( ) 
+{
+    int arr[4][5];
+    int i, j;
+    for (i = 0; i &lt; 4; i++) 
+    {
+        for (j = 0; j &lt; 5; j++) 
+        {
+            arr[i][j] = 10 * i + j;
+        }
+    }
+    printf("%d", *(arr[1] + 9));
+    return 0;
+}
+</code></pre>
+        </div>
+        <p>What is the output of the above program?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">14</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">20</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">24</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">30</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 5 -->
+<div class="question">
+    <div class="question-no"><p>Question 5</p></div>
+    <div class="question-text">
+        <p>Consider the following ANSI C function:</p>
+        <div class="code-box">
+            <pre><code>
+int SomeFunction (int x, int y)
+{
+    if ((x == 1) || (y == 1)) return 1;
+    if (x == y) return x;
+    if (x &gt; y) return SomeFunction(x - y, y);
+    if (y &gt; x) return SomeFunction(x, y - x);
+}
+</code></pre>
+        </div>
+        <p>The value returned by SomeFunction(15, 255) is __________ .</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">15</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">1275</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">30</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">255</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 6 -->
+<div class="question">
+    <div class="question-no"><p>Question 6</p></div>
+    <div class="question-text">
+        <p>Consider the following ANSI C program</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int foo(int x, int y, int q) 
+{
+    if ((x &lt;= 0) &amp;&amp; (y &lt;= 0))
+        return q;
+    if (x &lt;= 0)
+        return foo(x, y - q, q);
+    if (y &lt;= 0)
+        return foo(x - q, y, q);
+    return foo(x, y - q, q) + foo(x - q, y, q);
+}
+int main()
+{
+    int r = foo(15, 15, 10);
+    printf("%d", r);
+    return 0;
+}
+</code></pre>
+        </div>
+        <p>The output of the program upon execution is _________ .</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">60</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">10</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">15</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">50</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 7 -->
+<div class="question">
+    <div class="question-no"><p>Question 7</p></div>
+    <div class="question-text">
+        <p>Consider the following C program.</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+struct Ournode {
+    char x, y, z;
+};
+
+int main() {
+    struct Ournode p = {'1', '0', 'a' + 2};
+    struct Ournode *q = &amp;p;
+    printf("%c, %c", *((char *)q + 1), *((char *)q + 2));
+    return 0;
+}
+</code></pre>
+        </div>
+        <p>The output of this program is:</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">0, c</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">0, a+2</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">'0', 'a+2'</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">'0', 'c'</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 8 -->
+<div class="question">
+    <div class="question-no"><p>Question 8</p></div>
+    <div class="question-text">
+        <p>Predict the output of following program?</p>
+        <div class="code-box">
+            <pre><code>
+#include "stdio.h"
+int main()
+{
+    char arr[100];
+    printf("%d", scanf("%s", arr));
+    /* Suppose that input value given
+        for above scanf is "GeeksQuiz" */
+    return 1;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">9</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">1</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">10</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">100</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 9 -->
+<div class="question">
+    <div class="question-no"><p>Question 9</p></div>
+    <div class="question-text">
+        <p>Predict the output of the following C program:</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int compute() {
+    static int k = 1;
+    k = k * 3 - 1;
+    return k;
+}
+int main() {
+    int x, y, z;
+    x = compute();
+    y = x + compute();
+    z = compute() - y;
+    printf("%d\n", x + y * z);
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">-9</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">5</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">15</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">51</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 10 -->
+<div class="question">
+    <div class="question-no"><p>Question 10</p></div>
+    <div class="question-text">
+        <p>Predict output of the following program</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int main()
+{
+    printf("\new_c_question\b\r");
+    printf("geeksforgeeks"); 
+    getchar();
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">ew_c_question<br>geeksforgeeks</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">new_c_ques<br>geeksforgeeks</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">geeksforgeeks</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Depends on terminal configuration</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 11 -->
+<div class="question">
+    <div class="question-no"><p>Question 11</p></div>
+    <div class="question-text">
+        <p>Consider the following C functions.</p>
+        <div class="code-box">
+            <pre><code>
+int tob (int b, int* arr) {
+    int i;
+    for (i = 0; b &gt; 0; i++) {
+        if (b % 2) arr[i] = 1;
+        else arr[i] = 0;
+        b = b / 2;
+    }
+    return (i);
+}
+
+int pp(int a, int b) {
+    int arr[20];
+    int i, tot = 1, ex, len;
+    ex = a;
+    len = tob(b, arr);
+    for (i = 0; i &lt; len; i++) {
+        if (arr[i] == 1)
+            tot = tot * ex;
+        ex = ex * ex;
+    }
+    return (tot);
+}
+</code></pre>
+        </div>
+        <p>The value returned by pp(3,4) is ________ .</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">81</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">64</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">100</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">49</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 12 -->
+<div class="question">
+    <div class="question-no"><p>Question 12</p></div>
+    <div class="question-text">
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+
+int main() 
+{ 
+    printf(" \"GEEKS %% FOR %% GEEKS\""); 
+    getchar(); 
+    return 0; 
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">"GEEKS % FOR % GEEKS"</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">GEEKS % FOR % GEEKS</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">\"GEEKS %% FOR %% GEEKS\"</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">GEEKS %% FOR %% GEEKS</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 13 -->
+<div class="question">
+    <div class="question-no"><p>Question 13</p></div>
+    <div class="question-text">
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+// Assume base address of "GeeksQuiz" to be 1000
+int main()
+{
+    printf(5 + "GeeksQuiz");
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">GeeksQuiz</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Quiz</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">1005</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Compile-time error</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 14 -->
+<div class="question">
+    <div class="question-no"><p>Question 14</p></div>
+    <div class="question-text">
+        <p>What does the following C statement mean?</p>
+        <div class="code-box">
+            <pre><code>scanf("%4s", str);</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">Read exactly 4 characters from console.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Read maximum 4 characters from console.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">Read a string str in multiples of 4</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Nothing</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 15 -->
+<div class="question">
+    <div class="question-no"><p>Question 15</p></div>
+    <div class="question-text">
+        <p>Consider the following ANSI C code segment:</p>
+        <div class="code-box">
+            <pre><code>
+z = x + 3 + y-&gt;f1 + y-&gt;f2; 
+for (i = 0; i &lt; 200; i = i + 2) 
+{ 
+    if (z &gt; i) 
+    { 
+        p = p + x + 3; 
+        q = q + y-&gt;f1; 
+    } 
+    else 
+    { 
+        p = p + y-&gt;f2; 
+        q = q + x + 3; 
+    } 
+}
+</code></pre>
+        </div>
+        <p>Assume that the variable y points to a struct (allocated on the heap) containing two fields f1 and f2, and the local variables x, y, z, p, q, and i are allotted registers. Common sub-expression elimination (CSE) optimization is applied on the code. The number of addition and the dereference operations (of the form y-&gt;f1 or y-&gt;f2) in the optimized code, respectively, are:</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">403 and 102</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">203 and 2</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">303 and 102</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">303 and 2</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 16 -->
+<div class="question">
+    <div class="question-no"><p>Question 16</p></div>
+    <div class="question-text">
+        <p>Which of the following is true?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">gets() doesn't do any array bound testing and should not be used.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">fgets() should be used in place of gets() only for files, otherwise gets() is fine</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">gets() cannot read strings with spaces</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">None of the above</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 17 -->
+<div class="question">
+    <div class="question-no"><p>Question 17</p></div>
+    <div class="question-text">
+        <p>Predict the output?</p>
+        <div class="code-box">
+            <pre><code>
+int fun(char *str1)
+{
+    char *str2 = str1;
+    while (*++str1)
+        ;
+    return (str1 - str2);
+}
+int main()
+{
+    char *str = "GeeksQuiz";
+    printf("%d", fun(str));
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">10</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">9</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">8</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Random Number</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 18 -->
+<div class="question">
+    <div class="question-no"><p>Question 18</p></div>
+    <div class="question-text">
+        <p>When a copy constructor may be called?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">When an object of the class is returned by value.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">When an object of the class is passed (to a function) by value as an argument.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">When an object is constructed based on another object of the same class</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">When compiler generates a temporary object.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-e"></i></div><div class="option-text">All of the above</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 19 -->
+<div class="question">
+    <div class="question-no"><p>Question 19</p></div>
+    <div class="question-text">
+        <p>'C' Language can be used in ?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">Both System Software and Embedded Systems</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Only System Software</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">Only Embedded Systems</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">None</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 20 -->
+<div class="question">
+    <div class="question-no"><p>Question 20</p></div>
+    <div class="question-text">
+        <p>Why is the &amp; (address-of) operator used with scanf() when reading integer values?</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int main() {
+    int num;
+    scanf("%d", &amp;num);
+    printf("%d", num);
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">To specify the format of the input.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">To store the input at the variable's memory address.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">To perform pointer arithmetic.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">It is optional and does not affect the function's behavior.</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 21 -->
+<div class="question">
+    <div class="question-no"><p>Question 21</p></div>
+    <div class="question-text">
+        <p>Which of the following is the standard input stream in C?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">stdout</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Runtime error</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">stdin</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">stdfile</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 22 -->
+<div class="question">
+    <div class="question-no"><p>Question 22</p></div>
+    <div class="question-text">
+        <p>Which of the following is true</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">gets() can read a string with newline characters but a normal scanf() with %s can not.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">gets() can read a string with spaces but a normal scanf() with %s can not.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">gets() can always replace scanf() without any additional code.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">None of the above</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 23 -->
+<div class="question">
+    <div class="question-no"><p>Question 23</p></div>
+    <div class="question-text">
+        <div class="code-box">
+            <pre><code>
+#include&lt;stdio.h&gt;
+
+int main()
+{
+    char *s = "Geeks Quiz";
+    int n = 7;
+    printf("%.*s", n, s);
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">Geeks Quiz</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Nothing is printed</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">Geeks Q</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Geeks Qu</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 24 -->
+<div class="question">
+    <div class="question-no"><p>Question 24</p></div>
+    <div class="question-text">
+        <p>Predict the output of following program?</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int main(void) 
+{
+    int x = printf("GeeksQuiz");
+    printf("%d", x);
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">GeeksQuiz9</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">GeeksQuiz10</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">GeeksQuizGeeksQuiz</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">GeeksQuiz1</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 25 -->
+<div class="question">
+    <div class="question-no"><p>Question 25</p></div>
+    <div class="question-text">
+        <p>Output of following program?</p>
+        <div class="code-box">
+            <pre><code>
+#include&lt;stdio.h&gt;
+int main()
+{
+    printf("%d", printf("%d", 1234));
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">12344</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">12341</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">11234</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">41234</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 26 -->
+<div class="question">
+    <div class="question-no"><p>Question 26</p></div>
+    <div class="question-text">
+        <p>What is the return type of getchar()?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">int</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">char</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">unsigned char</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">float</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 27 -->
+<div class="question">
+    <div class="question-no"><p>Question 27</p></div>
+    <div class="question-text">
+        <p>Normally user programs are prevented from handling I/O directly by I/O instructions in them. For CPUs having explicit I/O instructions, such I/O protection is ensured by having the I/O instructions privileged. In a CPU with memory mapped I/O, there is no explicit I/O instruction. Which one of the following is true for a CPU with memory mapped I/O?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">I/O protection is ensured by operating system routine(s)</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">I/O protection is ensured by a hardware trap</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">I/O protection is ensured during system configuration</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">I/O protection is not possible</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 28 -->
+<div class="question">
+    <div class="question-no"><p>Question 28</p></div>
+    <div class="question-text">
+        <p>Consider the following C - code :</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+
+int foo(int a)
+{
+    printf("%d", a);
+    return 0;
+}
+
+int main()
+{
+    foo;
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">It'll result in compile error because foo is used without parentheses.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">No compile error and some garbage value would be passed to foo function. This would make foo to be executed with output "garbage integer".</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">No compile error but foo function wouldn't be executed. The program wouldn't print anything.</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">No compile error and ZERO (i.e. 0) would be passed to foo function. This would make foo to be executed with output 0.</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 29 -->
+<div class="question">
+    <div class="question-no"><p>Question 29</p></div>
+    <div class="question-text">
+        <p>Predict the output of the below program:</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    printf("%c ", 5["GeeksQuiz"]);
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">Compile-time error</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Runtime error</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">Q</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">s</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 30 -->
+<div class="question">
+    <div class="question-no"><p>Question 30</p></div>
+    <div class="question-text">
+        <p>What will be the output of the following program?</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int main() {
+    int a = 10, b = 20, c;
+    c = scanf("%d %d", &amp;a, &amp;b);
+    printf("%d %d %d\n", a, b, c);
+    return 0;
+}
+// User Input: 30 40
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">30 40 2</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">10 20 2</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">30 40 1</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Compilation error</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 31 -->
+<div class="question">
+    <div class="question-no"><p>Question 31</p></div>
+    <div class="question-text">
+        <p>What is output of following C - Code?</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+#include &lt;stdarg.h&gt;
+int fun(int n, ...)
+{
+    int i, j = 1, val = 0;
+    va_list p;
+    va_start(p, n);
+    for (; j &lt; n; ++j)
+    {
+        i = va_arg(p, int);
+        val += i;
+    }
+    va_end(p);
+    return val;
+}
+int main()
+{
+    printf("%d\n", fun(4, 1, 2, 3));
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">3</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">5</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">6</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">10</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 32 -->
+<div class="question">
+    <div class="question-no"><p>Question 32</p></div>
+    <div class="question-text">
+        <p>What's going to happen when we compile and run the following C program snippet?</p>
+        <div class="code-box">
+            <pre><code>
+#include "stdio.h"
+int main()
+{
+    int a = 10;
+    int b = 15;
+
+    printf("=%d", (a+1), (b=a+2));
+    printf(" %d=", b);
+
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">=11 15=</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">=11 12=</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">Compiler Error due to (b=a+2) in the first printf().</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">No compile error but output would be =11 X= where X would depend on compiler implementation.</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 33 -->
+<div class="question">
+    <div class="question-no"><p>Question 33</p></div>
+    <div class="question-text">
+        <p>Consider the following C code. Assume that unsigned long int type length is 64 bits.</p>
+        <div class="code-box">
+            <pre><code>
+unsigned long int fun(unsigned long int n) {
+    unsigned long int i, j = 0, sum = 0;
+    for(i = n; i &gt; 1; i = i/2) j++;
+    for( ; j &gt; 1; j = j/2) sum++;
+    return sum;
+}
+</code></pre>
+        </div>
+        <p>The value returned when we call fun with the input 2^40 is</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">4</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">5</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">6</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">40</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 34 -->
+<div class="question">
+    <div class="question-no"><p>Question 34</p></div>
+    <div class="question-text">
+        <p>Consider the following C program:</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+void fun1(char *s1, char *s2) {
+    char *temp;
+    temp = s1;
+    s1 = s2;
+    s2 = temp;
+}
+void fun2(char **s1, char **s2) {
+    char *temp;
+    temp = *s1;
+    *s1 = *s2;
+    *s2 = temp;
+}
+int main() {
+    char *str1 = "Hi", *str2 = "Bye";
+    fun1(str1, str2);
+    printf("%s %s", str1, str2);
+    fun2(&amp;str1, &amp;str2);
+    printf("%s %s", str1, str2);
+    return 0;
+}
+</code></pre>
+        </div>
+        <p>The output of the program above is</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">Hi Bye Bye Hi</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">Hi Bye Hi Bye</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">Bye Hi Hi Bye</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">Bye Hi Bye Hi</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 35 -->
+<div class="question">
+    <div class="question-no"><p>Question 35</p></div>
+    <div class="question-text">
+        <p>What is the value returned by the function f given below when n = 100?</p>
+        <div class="code-box">
+            <pre><code>int f(int n) { 
+    if (n == 0) 
+        return n; 
+    else 
+        return n + f(n - 2); 
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">2550</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">2556</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">5220</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">5520</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 36 -->
+<div class="question">
+    <div class="question-no"><p>Question 36</p></div>
+    <div class="question-text">
+        <p>What will be the output of the following 'C' code?</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+
+int main()
+{
+    int x = 128;
+    printf("\n%d", 1 + x++);
+    
+    return 0;
+}
+</code></pre>
+        </div>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">128</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">129</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">130</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">131</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 37 -->
+<div class="question">
+    <div class="question-no"><p>Question 37</p></div>
+    <div class="question-text">
+        <p>Consider the following C program</p>
+        <div class="code-box">
+            <pre><code>
+#include &lt;stdio.h&gt;
+int main() {
+    int a[4][5] = {{1, 2, 3, 4, 5},
+                   {6, 7, 8, 9, 10},
+                   {11, 12, 13, 14, 15},
+                   {16, 17, 18, 19, 20}};
+    printf("%d\n", *(*(a + **a + 2) + 3));
+    return(0);
+}
+</code></pre>
+        </div>
+        <p>The output is</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">19</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">18</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">20</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">3</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Question 38 -->
+<div class="question">
+    <div class="question-no"><p>Question 38</p></div>
+    <div class="question-text">
+        <p>What is the purpose of %n in scanf()?</p>
+        <div class="question-options">
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-a"></i></div><div class="option-text">To read a number and store it in a variable</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-b"></i></div><div class="option-text">To count and store the number of characters read so far</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-c"></i></div><div class="option-text">To skip over newline characters</div></div>
+            <div class="option"><div class="option-circle"><i class="fa-solid fa-d"></i></div><div class="option-text">To terminate the input</div></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="updates">
+            <div class="for-job">
+                <div class="update-box">
+                <div class="job-nav">
+                    <button id="job" class="beginner-jobs job">Freshers Jobs</button>
+                    <button class="experienced-jobs job">Experienced Jobs</button>
+                </div>
+                <div class="big-block">
+
+                    
+                    <div class="nav-block">
+                        
+                            <img class="company-logo" src="./assets/job-1.jpeg">
+                            <div class="detail-box">
+                            <p class="detail-topic">Full Stack Developer</p>
+                            <p class="company-name">WanderOn</p>
+                            <p class="detail">Fresher • Onsite - Gurugram (Haryana)</p>
+                            <p class="detail">Apply by Tue Jun 02 2026</p>
+                            </div>
+                        
+                    </div>
+
+                    <hr>
+
+                    <div class="nav-block">
+                        
+                            <img class="company-logo" src="./assets/job-2.jpeg">
+                            <div class="detail-box">
+                            <p class="detail-topic">Graphic Designer-Freshers</p>
+                            <p class="company-name">WanderOn</p>
+                            <p class="detail">Fresher • Onsite - Gurugram (Haryana)</p>
+                            <p class="detail">Apply by Wed Jun 03 2026</p>
+                            </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="nav-block">
+                        
+                            <img class="company-logo" src="./assets/job-3.jpeg">
+                            <div class="detail-box">
+                                <p class="detail-topic">Python Developer</p>
+                                <p class="company-name">Keylogic Infotech Private Limited</p>
+                                <p class="detail">Upto 1 Years • Onsite - Surat (Gujarat)</p>
+                                <p class="detail">Apply by Sun Jun 07 2026</p>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="view-all">
+                        <div><a href="#">View All<i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="for-courses">
+                <div class="update-box">
+                    <div class="big-block">
+                        <h1>Upcoming Courses</h1>
+                        <div class="nav-block">
+                                <div class="course detail-box">
+                                    <div class="course-detail">
+                                        <a href="#">
+                                            <p class="detail-topic">VLSI Trainee Program</p>
+                                            <p class="detail">Starting from - June 1, 2026</p>
+                                            <p class="detail">• LIVE</p>
+                                        </a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="rating-number"><p>4.6</p></div>
+                                    </div>
+                                </div>       
+                                
+                                
+                        </div>
+
+                        <div class="nav-block">
+                                <div class="course detail-box">
+                                    <div class="course-detail">
+                                        <a href="#">
+                                            <p class="detail-topic">VLSI Trainee Program</p>
+                                            <p class="detail">Starting from - June 1, 2026</p>
+                                            <p class="detail">• LIVE</p>
+                                        </a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="rating-number"><p>4.6</p></div>
+                                    </div>
+                                </div>             
+                                
+                        </div>
+
+
+                        <div class="nav-block">
+                                <div class="course detail-box">
+                                    <div class="course-detail">
+                                        <a href="#">
+                                            <p class="detail-topic">VLSI Trainee Program</p>
+                                            <p class="detail">Starting from - June 1, 2026</p>
+                                            <p class="detail">• LIVE</p>
+                                        </a>
+                                    </div>
+                                    <div class="rating">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="rating-number"><p>4.6</p></div>
+                                    </div>
+                                </div>
+                                                                                     
+                        </div>
+
+                    </div>
+                    <div class="view-all">
+                        <div><a href="#">View All<i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="for-trending-posts">
+                <div class="update-box">
+                    <div class="big-block">
+                        <h1 class="post">Trending Posts</h1>
+
+
+                        <div class="posts nav-block">      
+                                <img class="profile-pic company-logo" src="./assets/pic-1.png">
+                            <div class="profile-detail detail-box">
+                                <p class="profile-name">Yash Tariyal</p>
+                            
+                                <p class="detail">📘 GFG Connect - Post #145 | Technical</p>
+                                <p class="detail">Series An &- Progress Is Built One Step...</p>
+                            </div>
+                        
+                        </div>
+
+                        <div class="posts nav-block">      
+                                <img class="profile-pic company-logo" src="./assets/pic-2.png">
+                            <div class="profile-detail detail-box">
+                                <p class="profile-name">GOURAV PANDEY</p>
+                            
+                                <p class="detail">Day - 11: Recursion Print All</p>
+                                <p class="detail">Subsequences Yahi pattern future me...</p>
+                            </div>
+                        
+                        </div>
+
+
+                        <div class="posts nav-block">      
+                                <img class="profile-pic company-logo" src="./assets/pic-3.png">
+                            <div class="profile-detail detail-box">
+                                <p class="profile-name">AMAR DEEP</p>
+                            
+                                <p class="detail">Problem Analysis and Solution</p>
+                                <p class="detail">Development During my Data...</p>
+                            </div>
+                        
+                        </div>
+
+                        <div class="posts nav-block">      
+                                <img class="profile-pic company-logo" src="./assets/pic-4.png">
+                            <div class="profile-detail detail-box">
+                                <p class="profile-name">Ritesh Pawar</p>
+                            
+                                <p class="detail">Interview Prep: Why Product Companies</p>
+                                <p class="detail">Put You Through 5 Rounds of...</p>
+                            </div>
+                        
+                        </div>
+
+
+                        <div class="posts nav-block">      
+                                <img class="profile-pic company-logo" src="./assets/pic-5.png">
+                            <div class="profile-detail detail-box">
+                                <p class="profile-name">Sravani Panamgipalli</p>
+                            
+                                <p class="detail">The AI landscape witnessed several</p>
+                                <p class="detail">significant developments this week....</p>
+                            </div>
+                        
+                        </div>
+
+
+                    <div class="view-all">
+                        <div><a href="#">View All<i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+                       
+
+    
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-container-left">
+                <a class="footer-container_branding-logo-container" href="https://www.geeksforgeeks.org/"><img class="footer-container_branding-logo" src="https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogo.png" alt="GeeksforGeeks"></a>
+                
+                <div class="footer-container_address_box">
+                    <div class="footer-container_branding-address">
+                        <img src="./assets/location-pin.svg" alt="location-pin">
+                        <div class="footer-container_address_header">Corporate & Communications Address:</div>
+                    </div>
+                    <div class="footer-container_address_content">A-143, 7th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305)</div>
+                </div>
+
+                <div class="footer-container_address_box">
+                    <div class="footer-container_branding-address">
+                        <img src="./assets/location-pin.svg" alt="location-pin">
+                        <div class="footer-container_address_header">Registered Address:</div>
+                    </div>
+                    <div class="footer-container_address_content">K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305</div>
+                </div>
+                <div class="social-media">
+                    <div class="social-media-platform "><a id="linkedin" href="https://in.linkedin.com/company/geeksforgeeks" onclick="window.open(this.href, '_blank'); return false;"><i class="fa-brands fa-linkedin-in"></i></a></i></div>
+                    <div class="social-media-platform "><a id="instagram" href="https://www.instagram.com/geeks_for_geeks/" onclick="window.open(this.href, '_blank'); return false;"><i class="fa-brands fa-instagram"></i></a></i></div>
+                    <div class="social-media-platform "><a id="twitter" href="https://twitter.com/geeksforgeeks" onclick="window.open(this.href, '_blank'); return false;"><i class="fa-brands fa-x-twitter"></i></a></i></div>
+                    <div class="social-media-platform "><a id="facebook" href="https://www.facebook.com/geeksforgeeks.org/" onclick="window.open(this.href, '_blank'); return false;"><i class="fa-brands fa-facebook-f"></i></a></i></div>
+                    <div class="social-media-platform "><a id="youtube" href="https://www.youtube.com/geeksforgeeksvideos" onclick="window.open(this.href, '_blank'); return false;"><i class="fa-brands fa-youtube"></i></a></i></div>
+                    <div class="store">
+                        <img id="gplay" src="./assets/google-playstore.png" alt="Google-Playstore" onclick="window.open('https://geeksforgeeksapp.page.link/gfg-app')">
+                        <img id="appstore" src="./assets/apple-store.png" alt="Apple-Store" onclick="window.open('https://geeksforgeeksapp.page.link/gfg-app')">
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="footer-container-right">
+                <!-- Company List -->
+                <ul class="footer-container_links-list">
+                    <li class="footer-container_links_list-title">Company</li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/about/">About Us</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/legal/">Legal</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/legal/privacy-policy/">Privacy Policy</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/jobs?search=geeksforgeeks&tab_type=featured">Careers</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/about/contact-us/">Contact Us</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/gfg-corporate-solution/">Corporate Solution</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/campus-training-program/">Campus Training Program</a></li>
+                </ul>
+
+                <!-- Explore List -->
+                <ul class="footer-container_links-list">
+                    <li class="footer-container_links_list-title">Explore</li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/problem-of-the-day">POTD</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions">Practice Problems</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/connect/home">Connect</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/category/blogs/?type=recent">Blogs</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses">Upskill Courses</a></li>
+                </ul>
+
+                <!-- Tutorials List -->
+                <ul class="footer-container_links-list">
+                    <li class="footer-container_links_list-title">Tutorials</li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/computer-science-fundamentals/programming-language-tutorials/">Programming Languages</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/">DSA</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/web-tech/web-technology/">Web Technology</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/machine-learning/ai-ml-and-data-science-tutorial-learn-ai-ml-and-data-science/">AI, ML & Data Science</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/devops/devops-tutorial/">DevOps</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/gate/gate-exam-tutorial/">CS Core Subjects</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/gate/gate-exam-tutorial/">GATE</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/gfg-academy/geeksforgeeks-school/">School Subjects</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/websites-apps/software-and-tools-a-to-z-list/">Software and Tools</a></li>
+                </ul>
+
+                <!-- Courses List -->
+                <ul class="footer-container_links-list">
+                    <li class="footer-container_links_list-title">Courses</li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/machine-learning-data-science">ML and Data Science</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/dsa-placements">DSA and Placements</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/development-testing">Web Development</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/machine-learning-data-science">Data Science</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/programming-languages">Programming Languages</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/cloud-devops">DevOps & Cloud</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/gate">GATE</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/category/mongodb">MongoDB Certifications</a></li>
+                </ul>
+
+                <!-- Preparation Corner List -->
+                <ul class="footer-container_links-list">
+                    <li class="footer-container_links_list-title">Preparation Corner</li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/interview-prep/interview-corner/">Interview Corner</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/">Aptitude</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/aptitude/puzzles/">Puzzles</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/courses/gfg-160-series">GfG 160</a></li>
+                    <li class="footer-container_links_list-items"><a href="https://www.geeksforgeeks.org/system-design/system-design-tutorial/">System Design</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-strip">
+            <div class="copyright">
+                <a href="https://www.geeksforgeeks.org/">@GeeksforGeeks, Sanchhaya Education Private Limited,</a>
+                <a href="https://www.geeksforgeeks.org/legal/copyright-information/"> All rights reserved</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
