@@ -5,6 +5,16 @@
 
 A front-end clone of GeeksforGeeks quiz page featuring 38 multiple-choice questions on C Programming Input & Output concepts.
 
+## 🔗 Visit Site
+
+> Click the button below to visit site
+
+<p align="center">
+  <a href="https://itsarvindsingh.github.io/gfg-quiz-clone/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐-Visit%20My%20GitHub%20Site-181717?style=for-the-badge&logo=github&logoColor=white" alt="Visit GitHub Site">
+  </a>
+</p>
+
 ## 📸 Screenshot
 
 ![Quiz Page Preview](./assets/preview.png)
